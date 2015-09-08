@@ -46,7 +46,7 @@ html, body, .reveal div, .reveal span, .reveal applet, .reveal object, .reveal i
   transition: all 2s;
 }
  .box2:hover{       
-    transform: translate(50%, 10%) rotate(135deg) scale(0.5)
+    transform: translate(50%) rotate(135deg) scale(0.5)
 }
 
 
