@@ -44,11 +44,12 @@
 					<h1>CSS3</h1>
 					<h3>Transition and Visual Effects</h3>
 					<p>
-						<small>Created by Tim Wagner</small>
+						<small>von Tim Wagner</small>
 					</p>
 				</section>
 
 				<section>
+                    <section>
 					<h2>Transition mithilfe CSS3</h2>
 					<pre><code>.box {
   width: 200px;
@@ -76,7 +77,7 @@
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  transition: all 2s;
+  transition: all 3s;
 }
 .box2:hover{       
     transform: translate(50%) rotate(135deg) scale(0.5)
@@ -84,6 +85,7 @@
         <div class="box2"></div>
 					</center>
                         </section>
+                </section>
                 <section>
                     <h2>Weitere CSS Funktionen</h2>
                     <table><tr><th>  <ul>
@@ -113,12 +115,52 @@
                     <li>translateZ()</li>
                     <li>var</li>
                     </ul>
-                        </th>
-                        
-                        </tr></table>
-              
-                   
-                
+                        </th>                        
+                        </tr></table>               
+                </section>
+                <section>
+                    <section>
+                    <h2>Animation in CSS3</h2>
+                    <pre><Code>.box3{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: green;}
+}</Code></pre>
+                    <center>
+                <div class = "box3"></div>
+                </center>
+                </section>
+                    <section>
+                    <pre><code>.box4
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite
+    animation-direction: alternate;
+}
+
+@keyframes example2 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}</code></pre>
+    <center><div class = "box4"></div></center>
+                    </section>
+                </section>
+                <section>
+                <h2>Danke Für ihre Aufmerksakeit</h2>
                 </section>
 
 		<script src="lib/js/head.min.js"></script>
